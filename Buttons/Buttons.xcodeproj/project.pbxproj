@@ -14,7 +14,7 @@
 		3C9F0FF02BD77C4200A2BFAB /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F0FEF2BD77C4200A2BFAB /* ButtonView.swift */; };
 		3C9F0FF22BD77C5200A2BFAB /* EditButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F0FF12BD77C5200A2BFAB /* EditButtonView.swift */; };
 		3C9F0FF42BD77C5F00A2BFAB /* MenuButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F0FF32BD77C5F00A2BFAB /* MenuButtonView.swift */; };
-		3C9F0FF62BD77C6C00A2BFAB /* PasteButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F0FF52BD77C6C00A2BFAB /* PasteButtonView.swift */; };
+		3C9F0FF82BD78C1C00A2BFAB /* PasteButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9F0FF72BD78C1C00A2BFAB /* PasteButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +26,7 @@
 		3C9F0FEF2BD77C4200A2BFAB /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		3C9F0FF12BD77C5200A2BFAB /* EditButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditButtonView.swift; sourceTree = "<group>"; };
 		3C9F0FF32BD77C5F00A2BFAB /* MenuButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButtonView.swift; sourceTree = "<group>"; };
-		3C9F0FF52BD77C6C00A2BFAB /* PasteButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteButtonView.swift; sourceTree = "<group>"; };
+		3C9F0FF72BD78C1C00A2BFAB /* PasteButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 				3C9F0FEF2BD77C4200A2BFAB /* ButtonView.swift */,
 				3C9F0FF12BD77C5200A2BFAB /* EditButtonView.swift */,
 				3C9F0FF32BD77C5F00A2BFAB /* MenuButtonView.swift */,
-				3C9F0FF52BD77C6C00A2BFAB /* PasteButtonView.swift */,
+				3C9F0FF72BD78C1C00A2BFAB /* PasteButtonView.swift */,
 				3C9F0FE52BD77BEC00A2BFAB /* Assets.xcassets */,
 				3C9F0FE72BD77BEC00A2BFAB /* Preview Content */,
 			);
@@ -151,7 +151,7 @@
 			files = (
 				3C9F0FF22BD77C5200A2BFAB /* EditButtonView.swift in Sources */,
 				3C9F0FE42BD77BEB00A2BFAB /* ContentView.swift in Sources */,
-				3C9F0FF62BD77C6C00A2BFAB /* PasteButtonView.swift in Sources */,
+				3C9F0FF82BD78C1C00A2BFAB /* PasteButtonView.swift in Sources */,
 				3C9F0FE22BD77BEB00A2BFAB /* ButtonsApp.swift in Sources */,
 				3C9F0FF42BD77C5F00A2BFAB /* MenuButtonView.swift in Sources */,
 				3C9F0FF02BD77C4200A2BFAB /* ButtonView.swift in Sources */,

@@ -21,6 +21,7 @@ struct ButtonView: View {
                     .foregroundStyle(.white)
                     .padding()
                     .background(.blue)
+                    .clipShape(Capsule())
             }
         }
         .navigationTitle("Button View")
