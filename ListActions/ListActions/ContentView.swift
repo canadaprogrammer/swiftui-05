@@ -16,6 +16,7 @@ struct ContentView: View {
                 ForEach(numbers, id: \.self) { number in
                     Text("\(number)")
                 }
+                .onMove(perform: moveRow)
                 .onDelete(perform: { indexSet in
                     numbers.remove(atOffsets: indexSet)
                 })
@@ -23,16 +24,22 @@ struct ContentView: View {
             .navigationTitle("Number List")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
-                ToolbarItem(placement: .topBarLeading) {
+                ToolbarItem(placement: .bottomBar) {
                     Button("Add") {
                         addItemToRow()
                     }
+                }
+                ToolbarItem(placement: .topBarTrailing) {
+                    EditButton()
                 }
             }
         }
         
     }
     
+    private func moveRow(source: IndexSet, destination: Int) {
+        numbers.move(fromOffsets: source, toOffset: destination)
+    }
     private func addItemToRow() {
         numbers.append(Int.random(in: 5..<100))
     }
