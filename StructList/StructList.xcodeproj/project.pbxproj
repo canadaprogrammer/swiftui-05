@@ -11,6 +11,8 @@
 		3C3B04452BD897C600EC42FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3B04442BD897C600EC42FE /* ContentView.swift */; };
 		3C3B04472BD897C700EC42FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C3B04462BD897C700EC42FE /* Assets.xcassets */; };
 		3C3B044A2BD897C700EC42FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C3B04492BD897C700EC42FE /* Preview Assets.xcassets */; };
+		3C3B04512BD89BE600EC42FE /* WeatherInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3B04502BD89BE600EC42FE /* WeatherInfo.swift */; };
+		3C3B04532BD89CBA00EC42FE /* WeatherRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3B04522BD89CBA00EC42FE /* WeatherRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		3C3B04442BD897C600EC42FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3C3B04462BD897C700EC42FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C3B04492BD897C700EC42FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C3B04502BD89BE600EC42FE /* WeatherInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherInfo.swift; sourceTree = "<group>"; };
+		3C3B04522BD89CBA00EC42FE /* WeatherRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				3C3B04422BD897C600EC42FE /* StructListApp.swift */,
 				3C3B04442BD897C600EC42FE /* ContentView.swift */,
+				3C3B04522BD89CBA00EC42FE /* WeatherRow.swift */,
+				3C3B04502BD89BE600EC42FE /* WeatherInfo.swift */,
 				3C3B04462BD897C700EC42FE /* Assets.xcassets */,
 				3C3B04482BD897C700EC42FE /* Preview Content */,
 			);
@@ -139,6 +145,8 @@
 			files = (
 				3C3B04452BD897C600EC42FE /* ContentView.swift in Sources */,
 				3C3B04432BD897C600EC42FE /* StructListApp.swift in Sources */,
+				3C3B04512BD89BE600EC42FE /* WeatherInfo.swift in Sources */,
+				3C3B04532BD89CBA00EC42FE /* WeatherRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
