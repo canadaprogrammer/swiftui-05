@@ -29,6 +29,7 @@ struct ContentView: View {
                         Image(systemName: letter)
                             .font(.largeTitle)
                             .foregroundStyle(.yellow)
+                            .frame(width: 50, height: 50)
                             .background(.blue)
                             .symbolVariant(.circle.fill)
                     }
