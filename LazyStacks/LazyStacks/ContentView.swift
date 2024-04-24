@@ -10,14 +10,14 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            ScrollView(.horizontal) {
-                LazyHStack {
+            ScrollView {
+                LazyVStack {
                     ForEach(1...10000, id: \.self) { item in
                         ListRow(id: item, type: "Horizontal")
                     }
                 }
             }
-            .frame(height: 100, alignment: .center)
+            .frame(width: 200, alignment: .center)
         }
     }
 }
