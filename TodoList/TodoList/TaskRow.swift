@@ -8,20 +8,14 @@
 import SwiftUI
 
 struct TaskRow: View {
-    @State var completed = false
-    @State var priority: Priority
-    var task: Task
+    @Binding var task: Task
     var body: some View {
         HStack {
-            Button {
-                completed.toggle()
-            } label: {
-                Image(systemName: completed ? "circle.fill" : "circle")
-                    .foregroundStyle(.red)
-            }
+            Image(systemName: task.completed ? "circle.fill" : "circle")
+                .foregroundStyle(.red)
             Text("\(task.description)")
             Spacer()
-            Picker(selection: $priority, label: EmptyView()) {
+            Picker(selection: $task.priority, label: EmptyView()) {
                 ForEach(Priority.allCases, id: \.self) { value in
                     Text("\(value)")
                 }
@@ -31,5 +25,5 @@ struct TaskRow: View {
 }
 
 #Preview {
-    TaskRow(priority: .medium, task: Task.tasks[1])
+    TaskRow(task: .constant(Task(completed: false, description: "Test", priority: .high)))
 }
