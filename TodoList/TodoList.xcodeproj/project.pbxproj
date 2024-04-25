@@ -13,6 +13,7 @@
 		3C3B055B2BDA0EF800EC42FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C3B055A2BDA0EF800EC42FE /* Preview Assets.xcassets */; };
 		3C3B05622BDA0F3000EC42FE /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3B05612BDA0F3000EC42FE /* Task.swift */; };
 		3C3B05642BDA133100EC42FE /* TaskRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3B05632BDA133100EC42FE /* TaskRow.swift */; };
+		3C3B05662BDA33F100EC42FE /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3B05652BDA33F100EC42FE /* AddTaskView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3C3B055A2BDA0EF800EC42FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3C3B05612BDA0F3000EC42FE /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		3C3B05632BDA133100EC42FE /* TaskRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRow.swift; sourceTree = "<group>"; };
+		3C3B05652BDA33F100EC42FE /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				3C3B05522BDA0EF700EC42FE /* TodoListApp.swift */,
 				3C3B05542BDA0EF700EC42FE /* ContentView.swift */,
+				3C3B05652BDA33F100EC42FE /* AddTaskView.swift */,
 				3C3B05632BDA133100EC42FE /* TaskRow.swift */,
 				3C3B05612BDA0F3000EC42FE /* Task.swift */,
 				3C3B05562BDA0EF800EC42FE /* Assets.xcassets */,
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C3B05552BDA0EF700EC42FE /* ContentView.swift in Sources */,
+				3C3B05662BDA33F100EC42FE /* AddTaskView.swift in Sources */,
 				3C3B05622BDA0F3000EC42FE /* Task.swift in Sources */,
 				3C3B05532BDA0EF700EC42FE /* TodoListApp.swift in Sources */,
 				3C3B05642BDA133100EC42FE /* TaskRow.swift in Sources */,

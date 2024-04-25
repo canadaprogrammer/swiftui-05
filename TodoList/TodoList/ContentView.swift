@@ -8,23 +8,31 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var tasks: [Task]
+    @Binding var tasks: [Task]
     var body: some View {
         NavigationStack {
             List {
-                ForEach(tasks) { task in
+                ForEach(tasks.indices, id: \.self) { index in
                     Button {
-                        task.completed.toggle()
+                        tasks[index].completed.toggle()
                     } label: {
-                        TaskRow(priority: task.priority, task: task)
+                        TaskRow(task: $tasks[index])
                     }
+                    
                 }
                 .onDelete(perform: { indexSet in
                     tasks.remove(atOffsets: indexSet)
                 })
             }
             .toolbar {
-                EditButton()
+                ToolbarItem(placement: .topBarTrailing) {
+                    EditButton()
+                }
+//                ToolbarItem(placement: .bottomBar) {
+//                    Button("Add") {
+//                        AddTaskView()
+//                    }
+//                }
             }
             .navigationTitle("Todo List")
         }
@@ -33,5 +41,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView(tasks: Task.tasks)
+    ContentView(tasks: .constant(Task.tasks))
 }
