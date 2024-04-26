@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct TaskRow: View {
+<<<<<<< HEAD
 //    @State var completed = false
 //    @State var priority: Priority
     @Binding var task: Task
@@ -20,6 +21,13 @@ struct TaskRow: View {
                 Image(systemName: task.completed ? "circle.fill" : "circle")
                     .foregroundStyle(.red)
 //            }
+=======
+    @Binding var task: Task
+    var body: some View {
+        HStack {
+            Image(systemName: task.completed ? "circle.fill" : "circle")
+                .foregroundStyle(.red)
+>>>>>>> 0acffea11145d99e2efcac5ac413131b7e12d402
             Text("\(task.description)")
             Spacer()
             Picker(selection: $task.priority, label: EmptyView()) {
@@ -32,5 +40,9 @@ struct TaskRow: View {
 }
 
 #Preview {
+<<<<<<< HEAD
     TaskRow(task: .constant(Task.tasks[1]))
+=======
+    TaskRow(task: .constant(Task(completed: false, description: "Test", priority: .high)))
+>>>>>>> 0acffea11145d99e2efcac5ac413131b7e12d402
 }
