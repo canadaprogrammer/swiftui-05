@@ -12,6 +12,7 @@
 		3C3B05CC2BDB8DDE00EC42FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C3B05CB2BDB8DDE00EC42FE /* Assets.xcassets */; };
 		3C3B05CF2BDB8DDE00EC42FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C3B05CE2BDB8DDE00EC42FE /* Preview Assets.xcassets */; };
 		3C3B05D62BDB8E1800EC42FE /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3B05D52BDB8E1800EC42FE /* SignUpView.swift */; };
+		3C3B05D82BDB96F600EC42FE /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C3B05D72BDB96F600EC42FE /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		3C3B05CB2BDB8DDE00EC42FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C3B05CE2BDB8DDE00EC42FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3C3B05D52BDB8E1800EC42FE /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		3C3B05D72BDB96F600EC42FE /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				3C3B05C72BDB8DDC00EC42FE /* SignUpApp.swift */,
 				3C3B05C92BDB8DDC00EC42FE /* ContentView.swift */,
 				3C3B05D52BDB8E1800EC42FE /* SignUpView.swift */,
+				3C3B05D72BDB96F600EC42FE /* LoginView.swift */,
 				3C3B05CB2BDB8DDE00EC42FE /* Assets.xcassets */,
 				3C3B05CD2BDB8DDE00EC42FE /* Preview Content */,
 			);
@@ -142,6 +145,7 @@
 			files = (
 				3C3B05CA2BDB8DDC00EC42FE /* ContentView.swift in Sources */,
 				3C3B05D62BDB8E1800EC42FE /* SignUpView.swift in Sources */,
+				3C3B05D82BDB96F600EC42FE /* LoginView.swift in Sources */,
 				3C3B05C82BDB8DDC00EC42FE /* SignUpApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
