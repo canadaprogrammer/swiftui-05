@@ -38,19 +38,32 @@ final class AuthenticationViewModel {
     var photoURL: URL? { authResult?.user.photoURL }
     
     func logout() {
-        
+        GIDSignIn.sharedInstance.signOut()
+        GIDSignIn.sharedInstance.disconnect()
+        // try? 에러 발생시 nil 반환. 에러가 발생하지 않으면 반환 타입은 옵셔널.
+        // 반환 타입이 없어도 사용 가능하고 do-catch 없이 사용 가능
+        try? Auth.auth().signOut()
+        authResult = nil
+        state = .signedOut
     }
     
     func restorePreviousSignIn() {
-        
+        GIDSignIn.sharedInstance.restorePreviousSignIn { user, error in
+            if let error { print("Error: \(error.localizedDescription)")}
+            Task {
+                await self.signIn(user: user)
+            }
+        }
     }
     // Google 에 갔다 오는 것
     func login() {
         state = .busy
+        // get clientID from Firebase
         guard let clientID = FirebaseApp.app()?.options.clientID,
               let rootViewController = UIApplication.currentRootViewController else {
             return
         }
+        // Google Sign In
         let configuration = GIDConfiguration(clientID: clientID)
         GIDSignIn.sharedInstance.configuration = configuration
         // 화면 앞에 있는 컨트롤러랑 작업을 할 거야
