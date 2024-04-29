@@ -15,6 +15,7 @@
 		3C8357152BDF5A7D00ADACA6 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 3C8357142BDF5A7D00ADACA6 /* GoogleSignIn */; };
 		3C8357172BDF5A7D00ADACA6 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3C8357162BDF5A7D00ADACA6 /* GoogleSignInSwift */; };
 		3C83571C2BDF6EA000ADACA6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C83571B2BDF6EA000ADACA6 /* GoogleService-Info.plist */; };
+		3C83571E2BDF74D200ADACA6 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C83571D2BDF74D200ADACA6 /* AuthenticationViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		3C8357092BDF598100ADACA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3C83571A2BDF5E5100ADACA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		3C83571B2BDF6EA000ADACA6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3C83571D2BDF74D200ADACA6 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				3C83571A2BDF5E5100ADACA6 /* Info.plist */,
+				3C83571D2BDF74D200ADACA6 /* AuthenticationViewModel.swift */,
 				3C8357022BDF598000ADACA6 /* FirebaseBasicApp.swift */,
 				3C8357042BDF598000ADACA6 /* ContentView.swift */,
 				3C83571B2BDF6EA000ADACA6 /* GoogleService-Info.plist */,
@@ -158,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C83571E2BDF74D200ADACA6 /* AuthenticationViewModel.swift in Sources */,
 				3C8357052BDF598000ADACA6 /* ContentView.swift in Sources */,
 				3C8357032BDF598000ADACA6 /* FirebaseBasicApp.swift in Sources */,
 			);
