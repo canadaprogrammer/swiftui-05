@@ -31,8 +31,8 @@ class NotesService: ObservableObject {
         }
     }
     
-    func addNote(title: String, date: Date, body: String) {
-        let note = Note(id: UUID().uuidString, title: title, date: date, body: body)
+    func addNote(title: String, date: Date, body: String, author: String, username: String, photoURL: URL?) {
+        let note = Note(id: UUID().uuidString, title: title, date: date, body: body, author: author, username: username, photoURL: photoURL)
         // 문제가 생기면 오류 발생
         _ = try? dbCollection.addDocument(from: note)
         fetch()
@@ -65,7 +65,7 @@ class NotesService: ObservableObject {
         }
         // firebase 는 nosql 이라 무작위로 데이터를 줌
         self.notes = notes.sorted {
-            $0.date < $1.date
+            $0.date > $1.date
         }
     }
 }

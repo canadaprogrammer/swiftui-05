@@ -12,10 +12,13 @@ struct Note: Identifiable, Codable, Hashable {
     let title: String
     let date: Date
     let body: String
+    let author: String?
+    let username: String?
+    let photoURL: URL?
 }
 
 extension Note {
-    static let sample = Note(id: UUID().uuidString, title: "Sample Title", date: Date(), body: "Smaple Body")
+    static let sample = Note(id: UUID().uuidString, title: "Sample Title", date: Date(), body: "Smaple Body", author: nil, username: nil, photoURL: nil)
     static let sampleWithLongBody = Note(id: UUID().uuidString, title: "Sample Title", date: Date(), body:
     """
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget. Arcu bibendum at varius vel pharetra vel turpis nunc. Et tortor at risus viverra adipiscing at in tellus. Enim lobortis scelerisque fermentum dui. Sagittis aliquam malesuada bibendum arcu. Elementum nibh tellus molestie nunc. Orci nulla pellentesque dignissim enim sit amet venenatis urna cursus. Bibendum est ultricies integer quis auctor elit sed vulputate. Nibh praesent tristique magna sit amet purus gravida quis blandit. In ornare quam viverra orci sagittis eu volutpat. Posuere morbi leo urna molestie at elementum. Feugiat scelerisque varius morbi enim. Enim neque volutpat ac tincidunt vitae semper. Odio pellentesque diam volutpat commodo sed egestas egestas fringilla. Consequat ac felis donec et odio.
@@ -27,6 +30,7 @@ extension Note {
         Adipiscing bibendum est ultricies integer quis auctor. Tincidunt ornare massa eget egestas purus viverra accumsan. Nunc id cursus metus aliquam eleifend mi. Blandit turpis cursus in hac habitasse platea dictumst. Pellentesque pulvinar pellentesque habitant morbi. In hendrerit gravida rutrum quisque non tellus orci ac. Vulputate mi sit amet mauris commodo quis imperdiet massa. Vivamus at augue eget arcu dictum varius duis at consectetur. Ac odio tempor orci dapibus ultrices in iaculis nunc sed. Gravida dictum fusce ut placerat orci nulla. Nisi est sit amet facilisis magna etiam.
         
         Vel orci porta non pulvinar neque laoreet. Tincidunt lobortis feugiat vivamus at augue eget. Senectus et netus et malesuada fames ac turpis. Euismod quis viverra nibh cras pulvinar mattis nunc sed blandit. Feugiat in fermentum posuere urna. Malesuada pellentesque elit eget gravida cum. Pulvinar mattis nunc sed blandit libero volutpat sed cras ornare. Eu ultrices vitae auctor eu augue ut lectus arcu bibendum. Congue quisque egestas diam in arcu cursus euismod quis viverra. Pretium quam vulputate dignissim suspendisse in est ante in nibh.
-    """
+    """,
+    author: nil, username: nil, photoURL: nil
     )
 }
