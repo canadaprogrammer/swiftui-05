@@ -25,6 +25,7 @@
 		3C83572E2BE06F5500ADACA6 /* NoteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C83572D2BE06F5500ADACA6 /* NoteDetailView.swift */; };
 		3C8357302BE072CB00ADACA6 /* AddNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C83572F2BE072CB00ADACA6 /* AddNoteView.swift */; };
 		3C8357322BE079AE00ADACA6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C8357312BE079AE00ADACA6 /* GoogleService-Info.plist */; };
+		3CE2D5C12BE0A9B100822669 /* AddCommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE2D5C02BE0A9B100822669 /* AddCommentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		3C83572D2BE06F5500ADACA6 /* NoteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailView.swift; sourceTree = "<group>"; };
 		3C83572F2BE072CB00ADACA6 /* AddNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteView.swift; sourceTree = "<group>"; };
 		3C8357312BE079AE00ADACA6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3CE2D5C02BE0A9B100822669 /* AddCommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCommentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				3C8357042BDF598000ADACA6 /* ContentView.swift */,
 				3C8357292BE06E4400ADACA6 /* NotesListView.swift */,
 				3C83572D2BE06F5500ADACA6 /* NoteDetailView.swift */,
+				3CE2D5C02BE0A9B100822669 /* AddCommentView.swift */,
 				3C83572B2BE06F3200ADACA6 /* NoteSummaryView.swift */,
 				3C83572F2BE072CB00ADACA6 /* AddNoteView.swift */,
 				3C83571F2BDF81EB00ADACA6 /* ProfileView.swift */,
@@ -192,6 +195,7 @@
 				3C8357262BDF8F2100ADACA6 /* Note.swift in Sources */,
 				3C8357202BDF81EB00ADACA6 /* ProfileView.swift in Sources */,
 				3C83571E2BDF74D200ADACA6 /* AuthenticationViewModel.swift in Sources */,
+				3CE2D5C12BE0A9B100822669 /* AddCommentView.swift in Sources */,
 				3C8357302BE072CB00ADACA6 /* AddNoteView.swift in Sources */,
 				3C8357052BDF598000ADACA6 /* ContentView.swift in Sources */,
 				3C8357032BDF598000ADACA6 /* FirebaseBasicApp.swift in Sources */,
