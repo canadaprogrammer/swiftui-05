@@ -22,9 +22,12 @@ struct NoteDetailView: View {
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
             ToolbarItem(placement: .topBarTrailing) {
-                NavigationLink(destination: AddCommentView()) {
+                NavigationLink(destination: { AddCommentView(note: note)
+                }, label: {
                     Label("Add Comment", systemImage: "bubble.left.and.text.bubble.right.fill")
-                }
+                })
+                .padding()
+                .border(.gray)
             }
         }
     }

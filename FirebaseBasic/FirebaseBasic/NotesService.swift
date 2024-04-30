@@ -32,7 +32,7 @@ class NotesService: ObservableObject {
     }
     
     func addNote(title: String, date: Date, body: String, author: String, username: String, photoURL: URL?) {
-        let note = Note(id: UUID().uuidString, title: title, date: date, body: body, author: author, username: username, photoURL: photoURL)
+        let note = Note(id: UUID().uuidString, title: title, date: date, body: body, author: author, username: username, photoURL: photoURL, docId: nil)
         // 문제가 생기면 오류 발생
         _ = try? dbCollection.addDocument(from: note)
         fetch()
@@ -61,7 +61,10 @@ class NotesService: ObservableObject {
     
     private func updateNotes(snapshot: QuerySnapshot) {
         let notes: [Note] = snapshot.documents.compactMap { document in
-            try? document.data(as: Note.self)
+//            try? document.data(as: Note.self)
+            var note = try? document.data(as: Note.self)
+            note?.docId = document.documentID
+            return note
         }
         // firebase 는 nosql 이라 무작위로 데이터를 줌
         self.notes = notes.sorted {
