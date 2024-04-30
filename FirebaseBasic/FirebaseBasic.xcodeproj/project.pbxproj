@@ -21,6 +21,10 @@
 		3C8357242BDF8EDA00ADACA6 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3C8357232BDF8EDA00ADACA6 /* FirebaseFirestoreSwift */; };
 		3C8357262BDF8F2100ADACA6 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8357252BDF8F2100ADACA6 /* Note.swift */; };
 		3C8357282BDF90BC00ADACA6 /* NotesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8357272BDF90BC00ADACA6 /* NotesService.swift */; };
+		3C83572A2BE06E4400ADACA6 /* NotesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8357292BE06E4400ADACA6 /* NotesListView.swift */; };
+		3C83572C2BE06F3200ADACA6 /* NoteSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C83572B2BE06F3200ADACA6 /* NoteSummaryView.swift */; };
+		3C83572E2BE06F5500ADACA6 /* NoteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C83572D2BE06F5500ADACA6 /* NoteDetailView.swift */; };
+		3C8357302BE072CB00ADACA6 /* AddNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C83572F2BE072CB00ADACA6 /* AddNoteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +39,10 @@
 		3C83571F2BDF81EB00ADACA6 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		3C8357252BDF8F2100ADACA6 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		3C8357272BDF90BC00ADACA6 /* NotesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesService.swift; sourceTree = "<group>"; };
+		3C8357292BE06E4400ADACA6 /* NotesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesListView.swift; sourceTree = "<group>"; };
+		3C83572B2BE06F3200ADACA6 /* NoteSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteSummaryView.swift; sourceTree = "<group>"; };
+		3C83572D2BE06F5500ADACA6 /* NoteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailView.swift; sourceTree = "<group>"; };
+		3C83572F2BE072CB00ADACA6 /* AddNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,12 +84,16 @@
 				3C83571D2BDF74D200ADACA6 /* AuthenticationViewModel.swift */,
 				3C8357022BDF598000ADACA6 /* FirebaseBasicApp.swift */,
 				3C8357042BDF598000ADACA6 /* ContentView.swift */,
+				3C8357292BE06E4400ADACA6 /* NotesListView.swift */,
+				3C83572D2BE06F5500ADACA6 /* NoteDetailView.swift */,
+				3C83572B2BE06F3200ADACA6 /* NoteSummaryView.swift */,
+				3C83572F2BE072CB00ADACA6 /* AddNoteView.swift */,
 				3C83571F2BDF81EB00ADACA6 /* ProfileView.swift */,
-				3C8357252BDF8F2100ADACA6 /* Note.swift */,
-				3C8357272BDF90BC00ADACA6 /* NotesService.swift */,
 				3C83571B2BDF6EA000ADACA6 /* GoogleService-Info.plist */,
 				3C8357062BDF598100ADACA6 /* Assets.xcassets */,
 				3C8357082BDF598100ADACA6 /* Preview Content */,
+				3C8357252BDF8F2100ADACA6 /* Note.swift */,
+				3C8357272BDF90BC00ADACA6 /* NotesService.swift */,
 			);
 			path = FirebaseBasic;
 			sourceTree = "<group>";
@@ -176,12 +188,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C83572E2BE06F5500ADACA6 /* NoteDetailView.swift in Sources */,
 				3C8357262BDF8F2100ADACA6 /* Note.swift in Sources */,
 				3C8357202BDF81EB00ADACA6 /* ProfileView.swift in Sources */,
 				3C83571E2BDF74D200ADACA6 /* AuthenticationViewModel.swift in Sources */,
+				3C8357302BE072CB00ADACA6 /* AddNoteView.swift in Sources */,
 				3C8357052BDF598000ADACA6 /* ContentView.swift in Sources */,
 				3C8357032BDF598000ADACA6 /* FirebaseBasicApp.swift in Sources */,
 				3C8357282BDF90BC00ADACA6 /* NotesService.swift in Sources */,
+				3C83572A2BE06E4400ADACA6 /* NotesListView.swift in Sources */,
+				3C83572C2BE06F3200ADACA6 /* NoteSummaryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

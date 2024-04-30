@@ -8,7 +8,7 @@
 import Foundation
 import FirebaseFirestore
 
-@MainActor
+//@MainActor
 class NotesService: ObservableObject {
     @Published var notes: [Note]
     private let dbCollection = Firestore.firestore().collection("notes")

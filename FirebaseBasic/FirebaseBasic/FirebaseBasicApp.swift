@@ -30,7 +30,7 @@ struct FirebaseBasicApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NotesListView()
         }
     }
 }

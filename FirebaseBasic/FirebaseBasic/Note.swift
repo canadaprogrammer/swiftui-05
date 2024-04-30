@@ -15,8 +15,8 @@ struct Note: Identifiable, Codable, Hashable {
 }
 
 extension Note {
-    static let smaple = Note(id: UUID().uuidString, title: "Sample Title", date: Date(), body: "Smaple Body")
-    static let smapleWithLongBody = Note(id: UUID().uuidString, title: "Sample Title", date: Date(), body:
+    static let sample = Note(id: UUID().uuidString, title: "Sample Title", date: Date(), body: "Smaple Body")
+    static let sampleWithLongBody = Note(id: UUID().uuidString, title: "Sample Title", date: Date(), body:
     """
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget. Arcu bibendum at varius vel pharetra vel turpis nunc. Et tortor at risus viverra adipiscing at in tellus. Enim lobortis scelerisque fermentum dui. Sagittis aliquam malesuada bibendum arcu. Elementum nibh tellus molestie nunc. Orci nulla pellentesque dignissim enim sit amet venenatis urna cursus. Bibendum est ultricies integer quis auctor elit sed vulputate. Nibh praesent tristique magna sit amet purus gravida quis blandit. In ornare quam viverra orci sagittis eu volutpat. Posuere morbi leo urna molestie at elementum. Feugiat scelerisque varius morbi enim. Enim neque volutpat ac tincidunt vitae semper. Odio pellentesque diam volutpat commodo sed egestas egestas fringilla. Consequat ac felis donec et odio.
                 
