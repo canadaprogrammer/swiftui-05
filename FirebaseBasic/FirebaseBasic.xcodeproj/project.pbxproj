@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C2598E42BE0BC95002DF40C /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2598E32BE0BC95002DF40C /* Comment.swift */; };
+		3C2598E62BE0BCE7002DF40C /* CommentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2598E52BE0BCE7002DF40C /* CommentService.swift */; };
 		3C8357032BDF598000ADACA6 /* FirebaseBasicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8357022BDF598000ADACA6 /* FirebaseBasicApp.swift */; };
 		3C8357052BDF598000ADACA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8357042BDF598000ADACA6 /* ContentView.swift */; };
 		3C8357072BDF598100ADACA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C8357062BDF598100ADACA6 /* Assets.xcassets */; };
@@ -29,6 +31,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C2598E32BE0BC95002DF40C /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		3C2598E52BE0BCE7002DF40C /* CommentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentService.swift; sourceTree = "<group>"; };
 		3C8356FF2BDF598000ADACA6 /* FirebaseBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C8357022BDF598000ADACA6 /* FirebaseBasicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseBasicApp.swift; sourceTree = "<group>"; };
 		3C8357042BDF598000ADACA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +101,8 @@
 				3C8357082BDF598100ADACA6 /* Preview Content */,
 				3C8357252BDF8F2100ADACA6 /* Note.swift */,
 				3C8357272BDF90BC00ADACA6 /* NotesService.swift */,
+				3C2598E32BE0BC95002DF40C /* Comment.swift */,
+				3C2598E52BE0BCE7002DF40C /* CommentService.swift */,
 			);
 			path = FirebaseBasic;
 			sourceTree = "<group>";
@@ -197,7 +203,9 @@
 				3C83571E2BDF74D200ADACA6 /* AuthenticationViewModel.swift in Sources */,
 				3CE2D5C12BE0A9B100822669 /* AddCommentView.swift in Sources */,
 				3C8357302BE072CB00ADACA6 /* AddNoteView.swift in Sources */,
+				3C2598E62BE0BCE7002DF40C /* CommentService.swift in Sources */,
 				3C8357052BDF598000ADACA6 /* ContentView.swift in Sources */,
+				3C2598E42BE0BC95002DF40C /* Comment.swift in Sources */,
 				3C8357032BDF598000ADACA6 /* FirebaseBasicApp.swift in Sources */,
 				3C8357282BDF90BC00ADACA6 /* NotesService.swift in Sources */,
 				3C83572A2BE06E4400ADACA6 /* NotesListView.swift in Sources */,
